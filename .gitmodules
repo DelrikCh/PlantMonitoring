@@ -1,0 +1,3 @@
+[submodule "Sensor"]
+	path = Sensor
+	url = git@github.com:DelrikCh/Sensor.git
