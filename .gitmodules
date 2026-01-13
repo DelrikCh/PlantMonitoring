@@ -1,3 +1,6 @@
 [submodule "Sensor"]
 	path = Sensor
 	url = git@github.com:DelrikCh/Sensor.git
+[submodule "PlantMonitoringHost"]
+	path = PlantMonitoringHost
+	url = git@github.com:DelrikCh/PlantMonitoringHost.git
