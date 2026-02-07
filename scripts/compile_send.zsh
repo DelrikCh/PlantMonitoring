@@ -36,7 +36,8 @@ echo
 REMOTE_PATH="/home/choporov/esp32_bin"
 ssh choporov@$RASPBERRY_PI "mkdir -p $REMOTE_PATH"
 echo "Copying binary to Raspberry Pi..."
-scp "$BIN_FILE" choporov@$RASPBERRY_PI:"$REMOTE_PATH/."
+scp "$BUILD_DIR"/Sensor.ino*.bin choporov@$RASPBERRY_PI:"$REMOTE_PATH"/
+
 
 # OTA from RPi
 echo "Uploading firmware over OTA from RPi..."
